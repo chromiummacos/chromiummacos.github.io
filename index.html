@@ -8,14 +8,10 @@
     
 </head>
 <body>
-    <button onclick="playVid()" type="button">See The Rest Of The Page</button>
-   <iframe class="video"
-           src="https://www.youtube.com/embed/rTgj1HxmUbg?autoplay=1&loop=1&controls=0"  allow="autoplay">
-   </iframe>
   
     
     <button onclick="playVideo()" type="button">Play</button>
-<button onclick="pauseVideo()" type="button">Pause</button><br> 
+<br> 
 <video id="myVid" width="400" height="200">
  <source src="Video.mp4" type="video/mp4">
 </video>
@@ -24,9 +20,7 @@ var myVideo = document.getElementById("myVid");
 function playVideo() { 
  myVideo.play(); 
 } 
-function pauseVideo() { 
- myVideo.pause(); 
-} 
+
 </script> 
     
    <p>NEVER GONNA GIVE YOU UP<br>NEVER GONNA LET YOU DOWN<br>NEVER GONNA RUN AROUND AND<br>DESERT YOU<br>I MADE YOU CRY<br>SAY GOODBYE<br>I LIED<br>TO HURT YOU</p>
