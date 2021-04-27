@@ -21,3 +21,8 @@ body {
    background-attachment: fixed;
    background-repeat: no-repeat;
 }
+
+mark {
+   background-color: Aqua;
+   color: rgb(139,0,0);
+}
