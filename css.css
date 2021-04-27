@@ -14,13 +14,7 @@ p {
     height: 360px;
 }
 
-video {
-  pointer-events: none;
-}
 
-iframe {
-  pointer-events: none;
-}
 
 body {
    background-image:url("Image.jpeg");
