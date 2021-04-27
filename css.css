@@ -14,6 +14,12 @@ p {
     height: 360px;
 }
 
+video {
+   display: block;
+margin: 0 auto;
+   width: 480px;
+   height: 360px;
+}
 
 
 body {
