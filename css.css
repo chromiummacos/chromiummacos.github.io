@@ -6,19 +6,13 @@ p {
 
 
 /*center align video+ + video width and height */
-.video {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 480px;
-    height: 360px;
-}
-
 video {
    display: block;
-margin: 0 auto;
+margin-left: auto;
+  margin-right: auto;
    width: 480px;
    height: 360px;
+  pointer-events: none;
 }
 
 
